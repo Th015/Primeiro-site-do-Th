@@ -1,0 +1,322 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    background-color: #070F2B;
+    height: 100vh;
+}
+
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.flex{
+    display: flex;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+
+/* header */
+
+header{
+    padding: 60px 4% 20px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: right;
+    justify-content: center;
+}
+
+header a{
+    color: whitesmoke;
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header a:hover{
+    transform: scale(1.1);
+    color: rgb(182, 210, 235);
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li{
+    display: inline-block;
+    padding: 0 60px;
+
+}
+
+/* topo do site */
+
+section.topo_site{
+    padding: 80px 4%;
+}
+
+section.topo_site .flex{
+    align-items: center;
+    justify-content: left;
+    gap: 10px;
+    
+}
+
+.textotopo h1{
+    color: aliceblue;
+    font-size: 30px;
+
+}
+
+.textotopo p{
+    color: aliceblue;
+    margin: 40px 0;
+    font-size: 18px;
+}
+
+.social{
+    justify-content: left; 
+    margin-bottom: 280px;
+    
+}
+
+.social button{
+    width: 20;
+    height: 20;
+    border-radius: 0.4em;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: #070F2B;
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: none;
+    margin-right: 100px;
+}
+
+.th{
+    border-radius: 30px;
+    
+}
+
+.btn-contato button{
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 600;
+    background-color: rgba(255, 127, 80, 0.784);
+    border: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: .2s;
+}
+
+.btn-contato button:hover{
+    box-shadow: 0px 0px 8px coral;
+    transform: scale(1.05);
+}
+
+/* Sobre */
+
+section .sobre{
+    padding: 40px 4%;
+}
+
+.sobre h2{
+    margin-bottom: 90px;
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+    margin-top: 60px;
+}
+
+section.sobre .flex{
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.sobre .texto-sobre h1{
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.sobre .texto-sobre p{
+    color: aliceblue;
+    font-size: 17px;
+    text-align: justify;
+    margin-bottom: 5px;
+}
+
+
+.familiath{
+    border-radius: 30px;
+    
+}
+
+
+/* Habilidades */
+
+.habilidades h2{
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+    margin: 40px;
+    margin-top: 100px;
+}
+
+section .habilidades{
+    padding: 40px 4%;
+    
+}
+
+.habilidades .flex{
+    gap: 60px;
+}
+
+.habilidades .habilidades-box{
+    color: aliceblue;
+    padding: 35px;
+    border-radius: 20px;
+    margin-top: 40px;
+    justify-content: space-around;
+}
+
+.habilidades .habilidades-box:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 15px aliceblue;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.habilidades .habilidades-box i{
+    font-size: 70px;
+    color: coral;
+}
+
+.habilidades .habilidades-box h3{
+    font-size: 28px;
+    margin: 15px 0;
+}
+
+/* Projetos */
+
+.projetos h2{
+    color: aliceblue;
+    font-size: 38px;
+    text-align: center;
+    margin: 40px;
+    margin-bottom: 80px;
+}
+
+section.projetos{
+    margin-top: 60px;
+    padding: 40px 4%;
+    margin-bottom: 100px;
+    
+}
+
+section.projetos .flex{
+    justify-content: space-around;
+}
+
+.proj{
+    width: 300px;
+    height: 400px;
+    background-color: #535C91;
+    border-radius: 30px;
+}
+
+/* Contato */
+footer{
+    background-color: rgb(244, 95, 41);
+    margin-top: 30px;
+}
+
+.cont .flex{
+    justify-content: space-around;
+}
+
+.interface{
+    color: aliceblue;
+    text-align: center;
+    
+}
+
+.texto-footer{
+    margin: 40px;
+    padding-top: 50px;
+    transition: .2s;
+}
+
+.texto-footer:hover{
+    color: #0b1c5c;
+}
+
+
+.contato{
+    color: aliceblue;
+    padding: 35px;
+    border-radius: 20px;
+    margin-top: 0px;
+    margin-right: 85px;
+    margin-bottom: 80px;
+    transition: .2s;
+}
+
+.contato:hover{
+    color: #0b1c5c;
+}
+
+
+.contato i{
+    font-size: 50px;
+}
+
+.contato h1{
+    font-size: 25px;
+    margin: 15px 0;
+    
+}
+
+.sc button{
+    border-radius: 0.4em;
+    padding: 10px 0;
+    cursor: pointer;
+    background-color: rgb(244, 95, 41);
+    display: flex;
+    flex-direction: row;
+    color: white;
+    border: none;
+    justify-content: space-between;
+    transition: .3s; 
+    margin-top: 5px;   
+}
+
+.sc button:hover{
+    color: #0b1c5c;
+}
+
+
+@media screen and (max-width: 1020px){
+    /* GERAIS */
+    .flex{
+        flex-direction: column;
+    }
+
+
+    /*cabecalho*/
+    .menu_nav{
+        display: none;
+    }
+}
